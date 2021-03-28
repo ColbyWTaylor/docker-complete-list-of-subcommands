@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  margin: auto;
+/*   padding-top: 350px; */
+}
+
+.oceanGradient {
+    background-color: #0093E9;
+background-image: linear-gradient(180deg, #9CCDF4 0%, #0093E9 10%, #2391E7 40%, #000000 100%);
+
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.nav {
+  top: 0;
+  padding: 10px;
+  font-size: 20px;
+    border-bottom: darkblue 3px dotted;
+}
+
+.card {
+  width: 25%;
+  min-width: 325px;
+  height: 250px;
+  border: 3px solid black;
+  margin: 3%;
+  float: left;
+  background-color: black;
+}
+
+.cardTop {
+  text-align: center;
+  height: 50%;
+  background-color: white;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBottom {
+  text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.cardBottom:hover {
+    background-color: #2391E7;
+}
+
+.card h2 {
+  margin:0;
+  margind-block-start: 0;
+  margind-block-end: 0;
+}
+
+h1 {
+  margin: 0px;
+}
+
